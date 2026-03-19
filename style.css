@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", Sans-Serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body{
+  background-color: #fffafa;
+}
+header{
+  background-color: #ab1239;
+  padding: 10px;
+  text-align: center;
+}
+.pd{
+  color:  #3d426b;
+  text-align: center;
+  font-size: 50px;
+  font-family: "EB Garamond", Sans-Serif;
+  background-color: #ab1239;
+}
+.irony{
+  color: #3d426b;
+  text-align: center;
+  font-family: "EB Garamond", Sans-Serif;
+  background-color: #fffafa;
+}
+.navbar{
+  overflow: hidden;
+  top: 0vh;
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+}
+ul.navbar{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 2vw 0vh;
+  background-color: #3d426b;
+  position: sticky;
+}
+ul.navbar li a{
+  float: left;
+  text-align: center;
+  display: block;
+  color: #fffafa;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-family: "EB Garamond", Sans-Serif;
+}
+ul.navbar li a:hover{
+  background-color: #fffafa;
+  color: #ab1239;
+}
+.pic{
+  width: 100%;
+}
+.wform{
+  border: 1px solid #fffafa;
+  display: flex;
+  background-color: #3d426b;
+  width: 80%;
+  height: 100%;
+  border-block-style: solid;
+  border-block-color: #fffafa;
+  border-block-width: 50px;
+  font-family: "EB Garamond", Sans-Serif;
+  color: #fffafa;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.big 5{
+  position: absolute;
+  left: 0;
+}
+
+.lform {
+}
+}
+.lform input{
+  vertical-align: middle;
+  border: 1px solid #fffafa;
+  padding: 5px 10px;
+  width: 100%;
+}
+.lform button{
+  padding: 5px 10px;
+  background-color: #ab1239;
+  border: 1px solid #fffafa;
+  color: #fffafa;
+  cursor: pointer;
+  width: 100%;
+}
+.province select{
+  width: 100%;
+}
+.question textarea{
+  width: 100%;
+
+}
+section.home{
+  display: flex;
+  flex-direction: column;
+  font-family: "EB Garamond", Sans-Serif;
+}
+section.home >section{
+  margin: 100px;
+}
+.search{
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  top: 0;
+  text-align: center;
+}
+.search:focus{
+  width: 100%;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3d426b;
+  color: #fffafa;
+}
+/*laptop screen
+@media screen and (max-width: 2160px){
+  section.home{
+    flex-direction: row;
+    width: 100%;
+  }
+  .pic{
+    width: 100%;
+  }
+  footer{
+    width: 5%;
+  }
+}
+*/
